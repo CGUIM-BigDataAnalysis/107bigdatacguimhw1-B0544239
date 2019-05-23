@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558620874476.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B750F43F",
+    "lastKnownWriteTime" : 13229817834242158,
+    "last_content_update" : 1558620874476,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "DF4ECFEB",
+        "caption" : "X106Love",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=X106Love&cache_key=DF4ECFEB",
+        "displayedObservations" : "140",
+        "environment" : "",
+        "object" : "X106Love",
+        "preview" : "0",
+        "totalObservations" : "140",
+        "variables" : "5"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

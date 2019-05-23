@@ -1,0 +1,22 @@
+install.packages("ggplot2")
+library(ggplot2)
+library(SportsAnalytics)
+nba1819<-fetch_NBAPlayerStatistics(18-19)
+nba1819$TotalRebounds
+ggplot(nba1819,aes(x=Steals,y=TotalRebounds))+geom_point()+geom_smooth()
+
+cor(nba1819$Steals,nba1819$TotalRebounds)
+?cor
+library(readr)
+aa<-read_csv("C:\\Users\\user\\desktop\\201803.csv")
+aa<-aa[-(1:2),]
+ggplot(aa,aes(x=總計家數,y=總計資本額))+geom_point()+geom_smooth()
+cor(aa$總計家數,aa$總計資本額)
+geom_text()
+
+library(jsonlite)
+animal<-fromJSON("http://data.coa.gov.tw/Service/OpenData/AnimalOpenData.aspx")
+A<-group_by(animal,animal_kind,shelter_name)%>%count()
+A
+ggplot()+geom_bar(data = A,aes(x=shelter_name,y=n),stat="identity")+theme_bw()+facet_grid(.~animal_kind)+labs()+coord_flip()
+

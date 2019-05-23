@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558619255201.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1554D3D1",
+    "lastKnownWriteTime" : 8387223609435256677,
+    "last_content_update" : 1558619255201,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "490E5297",
+        "caption" : "together",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=together&cache_key=490E5297",
+        "displayedObservations" : 108,
+        "environment" : "",
+        "object" : "together",
+        "preview" : 0,
+        "totalObservations" : 108,
+        "variables" : 10
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
